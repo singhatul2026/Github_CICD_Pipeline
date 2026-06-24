@@ -8,7 +8,7 @@ jobs:
     runs-on: ASG-GITHUB-RUNNER
 
     steps:
-      - name: Checkout Code
+      - name: Github-CICD-Pipeline
         uses: actions/checkout@v4
 
       - name: Azure Login
