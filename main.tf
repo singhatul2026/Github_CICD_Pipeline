@@ -6,15 +6,6 @@
 # Overall, it sets up a basic Azure Resource Group using Infrastructure as Code.
 
 
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "=4.77.0"
-    }
-  }
-}
-
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
   features {}
