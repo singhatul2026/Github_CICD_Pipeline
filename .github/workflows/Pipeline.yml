@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  terraform:
+  my_fisrt_job:
     runs-on:  self-hosted
 
     steps:
@@ -29,3 +29,6 @@ jobs:
 
       - name: Terraform Apply
         run: terraform apply -auto-approve
+        
+      - name: Terraform destroy
+        run: terraform destroy -auto-approve
